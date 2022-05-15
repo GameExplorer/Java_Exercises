@@ -1,6 +1,6 @@
 package Kviz1;
 
-public class vaja3 {
+public class kviz3 {
      /*Write a method
 
   void nickel (int a, int b, int c),

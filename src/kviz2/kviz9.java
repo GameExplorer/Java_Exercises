@@ -5,10 +5,6 @@ public class kviz9 {
         return prevod("Dapanepas jepa lepap dapan");
     }
     
-    /*Write a static String translation method that first checks in 
-    which language the specified string is written and then translates 
-    the string to another language
-    */
     public static String prevod(String niz) {
         boolean jePapajscina = true;
         for (int i = 0; i < niz.length(); i++) {

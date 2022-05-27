@@ -4,8 +4,6 @@ public class kviz8 {
     public static void main(String[] arga){
 
     }
-    /*Write the method int sum of Common Digits (int a, int b), which calculates the sum of all digits 
-    that appear simultaneously in the number a and b. If any of the digits appears more than once, count it only once in the sum.*/
 
     public static int vsotaSkupnihCifer(int a, int b) {
         int vsota = 0;

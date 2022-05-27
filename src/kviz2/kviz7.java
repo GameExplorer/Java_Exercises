@@ -6,10 +6,7 @@ public class kviz7 {
         
     }
 
-    /*
-    Write a String binarySet method (String s, String b) that sums two 
-    binary numbers given as a string of ones and zeros.
-    */
+    
     public static String binarnoSestej(String s, String b) {
         String rezultat = "";
         int s1 = s.length();

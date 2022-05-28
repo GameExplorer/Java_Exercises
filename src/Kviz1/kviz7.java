@@ -4,7 +4,6 @@ public class kviz7 {
     public static void main (String[] args){
         jeFibonacijevo(4);
     }
-    /*Write the boolean metho  isaFibonacci (int n), which checks whether a given number n is a Fibonacci number.*/
     public static boolean jeFibonacijevo(int n) {
         if (n < 0) {
             System.out.println("Napaka: negativen n");

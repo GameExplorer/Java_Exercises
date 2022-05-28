@@ -4,12 +4,6 @@ public class kviz6 {
     public static void main(String[] args){
         javaJavaJava(2);
     }
-    /*Write the javaJavaJava (int n) method, which prints the word Java n times. If n is negative, let the method print Error: negative n
-    Example:
-   J    a   v     v  a         J    a   v     v  a         J    a   v     v  a      
-   J   a a   v   v  a a        J   a a   v   v  a a        J   a a   v   v  a a     
-J  J  aaaaa   V V  aaaaa    J  J  aaaaa   V V  aaaaa    J  J  aaaaa   V V  aaaaa    
- JJ  a     a   V  a     a    JJ  a     a   V  a     a    JJ  a     a   V  a     a   */
 
     public static void javaJavaJava(int n) {
         if (n < 0) {

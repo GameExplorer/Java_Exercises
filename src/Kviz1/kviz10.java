@@ -4,11 +4,6 @@ public class kviz10 {
     public static void main(String[] args) {
         vDesetisko(129);
     }
-
-    /*
-    Write a method void vDesetisko(int n), which converts a given number from the octal to the decimal system and displays the numbers in both systems. if number is not octal write error
-
-    */
     public static void vDesetisko(int n) {
         String osmisko = String.valueOf(n);
         int desetisko = 0;

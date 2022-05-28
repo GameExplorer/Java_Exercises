@@ -1,9 +1,7 @@
 package Kviz1;
 
 public class kviz11 {
-    /*
-    Napiši metodo String pretvoriVDesetisko(String n, int b), ki pretvori iz danega številskega sistema b v desetiški sistem. Število n je podano v znakovni obliki. V primeru, da pretvorba ni možna, naj metoda vrne sporočilo o napaki.
-    */
+
     public static void main(String[] args) {
         pretvoriVDesetisko("Petek je danes", 5);
     }

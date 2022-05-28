@@ -7,7 +7,6 @@ public class kviz7 {
         
     }
 
-    
     public static String binarnoSestej(String s, String b) {
         String rezultat = "";
         int s1 = s.length();

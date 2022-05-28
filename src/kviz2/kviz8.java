@@ -1,6 +1,5 @@
 package kviz2;
 
-
 public class kviz8 {
     public static void main(String[] arga){
 
@@ -11,8 +10,6 @@ public class kviz8 {
         String stavekA = Integer.toString(a);
         String stavekB = Integer.toString(b);
         java.util.HashSet<Integer> upostevana = new java.util.HashSet<>();
-
-        
 
         for (int i = 0; i < stavekA.length(); i++) {
             for (int j = 0; j < stavekB.length(); j++) {

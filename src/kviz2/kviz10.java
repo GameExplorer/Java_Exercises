@@ -17,7 +17,6 @@ public class kviz10 {
                 niz2 += niz.charAt(i);
             }
         }
-
         System.out.println(niz1);
         System.out.println(niz2);
     }

@@ -1,3 +1,6 @@
+    ![Java Logo](/assets/java_logo.png)
+
+
 # Java_Exercises
  Java Exercsies
 

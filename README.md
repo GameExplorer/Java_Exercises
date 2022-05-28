@@ -6,7 +6,7 @@
 
 ![Java Logo](java_logo.png)
 
-Java Exercsies
+Java Vaje
 
 <ol>
   <li>Kvizi</li>

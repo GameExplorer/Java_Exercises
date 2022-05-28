@@ -1,8 +1,12 @@
-    ![Java Logo](java_logo.png)
+
+    
 
 
 # Java_Exercises
- Java Exercsies
+
+![Java Logo](java_logo.png)
+
+Java Exercsies
 
 <ol>
   <li>Kvizi</li>

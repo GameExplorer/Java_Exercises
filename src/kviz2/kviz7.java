@@ -1,5 +1,6 @@
 package kviz2;
 
+
 public class kviz7 {
     public static String main (String[] args) {
         return binarnoSestej("12", "2");

@@ -1,5 +1,5 @@
-package kviz2;
 
+package kviz2;
 public class kviz1 {
     public static void main(String[] args){
        

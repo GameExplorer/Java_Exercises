@@ -1,5 +1,6 @@
 package kviz2;
 
+
 public class kviz2 {
     public static void main(String[] args) {
 

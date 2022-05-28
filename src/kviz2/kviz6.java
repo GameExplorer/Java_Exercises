@@ -1,3 +1,4 @@
+
 package kviz2;
 
 public class kviz6 {

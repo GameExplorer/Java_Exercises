@@ -1,4 +1,4 @@
-    ![Java Logo](assets/java_logo.png)
+    ![Java Logo](java_logo.png)
 
 
 # Java_Exercises

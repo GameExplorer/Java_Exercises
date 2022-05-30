@@ -24,3 +24,6 @@ public class kviz10 {
         }
     }
 }
+/*
+Napiši metodo int bsdChecksum(String filename), ki prebere vsebino tekstovne datoteke fileName in izračuna BSD kontrolno vsoto znakov datoteke.  Pri računanju vsote upoštevajte tudi morebitne znake za prehod v novo vrstico. V primeru, da datoteka ne obstaja, naj metoda vrne 0.
+ */

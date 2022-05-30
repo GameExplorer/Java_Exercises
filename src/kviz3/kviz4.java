@@ -21,3 +21,7 @@ public class kviz4 {
         return palindrom;
     }
 }
+/*abstract
+Napiši metodo String najdaljsiPalindrom(String niz, boolean presledki),
+ki v podanem nizu poišče najdljši palindrom, to je niz, ki se enako bere od začetka proti koncu in od konca proti začetku. Metoda naj kot parameter sprejme niz, v katerem išče palindrom ter logično spremenljivko presledki, s katero se določi, kako naj se pri preverjanju palindroma obravnavajo presledki (če je ta spremenljivka true, se presledki obravnavajo kot običajni znaki, če pa je false, presledke v nizu ignoriramo – na niz gledamo, kot da presledkov v njem ne bi bilo).
+*/

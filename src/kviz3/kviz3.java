@@ -25,3 +25,13 @@ public class kviz3 {
         return false;
     }
 }
+
+/*
+Napiši metodo
+
+       boolean jeAngram(String prvaBesede, String drugaBeseda, boolean zanemariVelikost),
+
+ki za podani besedi ugotovi, ali sta anagrama ali ne. Anagram besede  je beseda, ki jo je možno dobiti s prerazporeditvijo (brez dodajanja ali brisanja) črk prve besede. Upoštevajte, da beseda ni sama sebi anagram.
+
+Tretji parameter (zanemariVelikost) uporabljamo za razlikovanje med velikimi in malimi črkami (primer: beseda  “abc” je anagram besede BCA, le v primeru, da je zanemariVelikost == true).
+*/

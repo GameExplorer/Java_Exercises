@@ -1,5 +1,16 @@
 package kviz2;
 
+/*
+Papajščina je jezik, podoben slovenščini, razlika je le v dodanem zlogu “pa” za vsakim samoglasnikom. Primer: stavek Danes je lep dan se v papajščini glasi Dapanepas jepa lepap dapan.
+
+Napiši metodo static String prevod(String niz), ki najprej preveri, v katerem jeziku je zapisan podan niz, nato pa niz prevede v drug jezik.
+
+Primer: ob klicu prevod("Danes je lep dan") naj metoda vrne niz "Dapanepas jepa lepap dapan", ob klicu prevod("Dapanepas jepa lepap dapan") pa "Danes je lep dan".
+
+Primer2: Papaka -> Papapapakapa
+
+Primer3: Kappa -> Kapappapa
+*/
 
 public class kviz9 {
     public static String main(String[] args){

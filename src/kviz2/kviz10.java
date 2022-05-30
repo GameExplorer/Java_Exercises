@@ -8,10 +8,18 @@ public class kviz10 {
 
     }
     /*
-    Napiši metodo String prepleti(String niz1, String niz2), ki 
-    prejme dva niza in vrne prepleten niz (v katerem se prepletajo črke 
-    prvega in drugega niza). Če niza nista enako dolga, naj krajšega 
-    dopolni s presledki.
+    Napiši metodo String prepleti(String niz1, String niz2), ki prejme dva niza in vrne prepleten niz (v katerem se prepletajo črke prvega in drugega niza). Če niza nista enako dolga, naj krajšega dopolni s presledki.
+
+Primer:
+prepleti("pomlad", "JESEN") --> "pJoEmSlEaNd "
+prepleti("december", "maj") --> "dmeacje m b e r "
+
+Napiši tudi metodo void odpleti(String niz), ki  prejme prepleten niz in na zaslon izpiše  oba niza, iz katerega je prepleten niz sestavljen, vsakega v svojo vrstico.
+
+Primer:
+odpleti("dmeacje m b e r ") –-(izpis)-->
+december
+maj
 
     */
 

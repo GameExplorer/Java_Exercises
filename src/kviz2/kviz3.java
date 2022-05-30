@@ -1,9 +1,11 @@
-
+/*
+Napiši metodo int[] range(int a, int b, int c), ki prejme števila a, b, c > 0 in vrne tabelo z elementi a, a+c, a+2c, a+3c, ...a+xc, pri čemer je a+xc < b  in a+(x+1)c >= b.
+*/
 package kviz2;
 
 public class kviz3 {
     public static void main(String[] args) {
-
+        range(0, 10, 2);
     }
 
     public static int [] range (int a, int b, int c) {

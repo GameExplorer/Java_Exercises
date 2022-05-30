@@ -1,6 +1,16 @@
 package kviz2;
 
+/*
+Napiši metodo String binarnoSestej(String s, String b), ki sešteje dve binarni števili, podani kot niz enic in ničel.
 
+Primeri:
+
+"10" + "11" = "101"
+
+"10011010010" + "1000011100001" = "1010110110011"
+
+Metoda lahko uporabi le osnovne operacije in razrede (ne sme, na primer, uporabiti metode Integer.parseInt() in podobnih metod), rezultat naj pridobi s seštevanjem “bit po bitu”
+*/
 public class kviz7 {
     public static String main (String[] args) {
         return binarnoSestej("12", "2");

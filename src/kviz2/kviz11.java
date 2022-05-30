@@ -1,5 +1,11 @@
 package kviz2;
 
+/*
+Napiši metodo String vMorse(String niz),ki podani niz pretvori v Morsejevo abecedo. Pri pretvorbi male črke spremeni v velike, za ločilo med posameznimi črkami uporabi presledek, za ločilo med besedami pa dva presledka.
+
+Podatke o črkah Morsejeve abecede lahko dobiš tule.
+*/
+
 public class kviz11 {
     public static void main(String[] args) {
         vMorse("SOS");

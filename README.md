@@ -7,7 +7,7 @@
 ![Java Logo](java_logo.png)
 
 Java Vaje
-
+<p>Koda se nahaja v mapi src</p>
 <ol>
   <li>Kvizi</li>
   <li>Naloge z vaj</li>

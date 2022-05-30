@@ -1,5 +1,11 @@
 package Kviz1;
 
+/*
+Števila v zaporedju 1, 1, 2, 3, 5, 8, 13, 21, 34, ... imenujemo Fibonaccijeva števila. Naslednji element zaporedja dobimo s seštevanjem prejšnjih dveh elementov (13=5+8, 21=8+13, 34=13+21, ...).
+
+Napiši metodo boolean jeFibonaccijevo(int n), ki preveri, ali je dano število n Fibonaccijevo število.
+*/
+
 public class kviz7 {
     public static void main (String[] args){
         jeFibonacijevo(4);

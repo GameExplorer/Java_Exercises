@@ -1,5 +1,11 @@
 package Kviz1;
 
+/*
+Napiši metodo izrisiZastavo(int n), ki izriše zastavo različnih velikosti, kot prikazujejo spodnji primeri.
+
+Primer za n = 1, 2, 3:
+*/
+
 public class kviz9 {
     public static void main(String[] args) {
         izrisiZastavo(4);

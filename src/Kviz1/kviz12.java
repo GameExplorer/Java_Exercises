@@ -1,5 +1,13 @@
 package Kviz1;
 
+/*
+Napiši metodo
+
+  vsotaPrvih(int n), ki vrne vsoto prvih n praštevil.
+
+Opomba: lahko si pomagaš z metodo jePrastevilo(int i) iz naloge 1.8.
+*/
+
 public class kviz12 {
     public static void main(String[] args){
         vsotaPrvih(14);

@@ -1,5 +1,13 @@
 package Kviz1;
 
+/*
+Napiši metodo
+
+   String pretvoriSekunde(int sekunde),
+
+ki pretvori sekunde v ure, minute in sekunde in vrne niz v formatu hh:mm:ss.
+*/
+
 public class kviz5 {
     public static void main(String[] args) {
         pretvoriSekunde(4000);

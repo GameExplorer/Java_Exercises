@@ -33,3 +33,16 @@ public class kviz6 {
         }
     }
 }
+
+/*
+Napiši metodo javaJavaJava(int n), ki n-krat izpiše besedo Java. Če je n negativen, naj metoda izpiše Napaka: negativen n .
+
+Primer: pri n=3 naj program izpiše
+
+ 
+
+   J    a   v     v  a         J    a   v     v  a         J    a   v     v  a      
+   J   a a   v   v  a a        J   a a   v   v  a a        J   a a   v   v  a a     
+J  J  aaaaa   V V  aaaaa    J  J  aaaaa   V V  aaaaa    J  J  aaaaa   V V  aaaaa    
+ JJ  a     a   V  a     a    JJ  a     a   V  a     a    JJ  a     a   V  a     a 
+*/

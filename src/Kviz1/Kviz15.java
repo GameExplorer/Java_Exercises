@@ -1,5 +1,13 @@
 package Kviz1;
 
+/*
+Napiši metodo
+
+    String izracunajRazliko(String prviCas, String drugiCas),
+
+ki izračuna razliko dveh ur podanih v obliki hh:mm:ss in izračunano razliko vrne v enakem formatu.
+*/
+
 public class Kviz15 {
     public static void main(String[] args) {
         izracunajRazliko("08:23:10", "04:01:02");

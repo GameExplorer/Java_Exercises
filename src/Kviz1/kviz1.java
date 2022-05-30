@@ -8,4 +8,12 @@ public class kviz1 {
         System.out.println("J  J  aaaaa   V V  aaaaa ");
         System.out.println(" JJ  a     a   V  a     a ");
     }
+
+    /*
+    Napiši metodo void java(), ki izpiše naslednje besedilo
+   J    a   v     v  a                                                  
+   J   a a   v   v  a a                                                 
+J  J  aaaaa   V V  aaaaa                                                
+ JJ  a     a   V  a     a    
+    */
 }

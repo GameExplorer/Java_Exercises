@@ -1,5 +1,13 @@
 package Kviz1;
 
+/*
+Napiši metodo
+
+   String pretvoriVDesetisko(String n, int b),
+
+ki pretvori iz danega številskega sistema b v desetiški sistem. Število n je podano v znakovni obliki. V primeru, da pretvorba ni možna, naj metoda vrne sporočilo o napaki.
+*/
+
 public class kviz11 {
 
     public static void main(String[] args) {

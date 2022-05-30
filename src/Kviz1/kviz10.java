@@ -1,5 +1,13 @@
 package Kviz1;
 
+/*
+Napiši metodo
+
+    void vDesetisko(int n),
+
+ki dano število pretvori iz osmiškega v desetiški sistem in na zaslon izpiše števili v obeh sistemih.
+*/
+
 public class kviz10 {
     public static void main(String[] args) {
         vDesetisko(129);

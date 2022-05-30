@@ -1,5 +1,14 @@
 package Kviz1;
 
+/*
+Napiši metodo void nicli(int a, int b, int c), ki izračuna in izpiše obe realni ničli kvadratne enačbe
+
+  ax2 + bx + c = 0
+
+V primeru, da realni ničli ne obstajata (negativna diskriminanta), 
+naj program izpiše  Napaka: nicli  enacbe ne obstajata.
+*/
+
 public class kviz3 {
      
 public static void main(String[] args){

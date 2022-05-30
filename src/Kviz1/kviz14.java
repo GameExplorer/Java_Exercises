@@ -1,5 +1,10 @@
 package Kviz1;
 
+/*
+Napiši metodo void narisiDrevo(int n), ki nariše drevo velikosti n. Številke ni potrebno izpisati.
+Primer dreves za n=0, 1, …, 7
+*/
+
 public class kviz14 {
     public static void main(String[] args) {
         narisiDrevo(10);

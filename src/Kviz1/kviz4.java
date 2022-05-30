@@ -1,5 +1,12 @@
 package Kviz1;
 
+/*
+Napiši metodo void krog(double r, int d), ki izračuna in izpiše obseg in 
+ploščino kroga na d decimalk natančno. Če je r negativen, naj metoda 
+izpiše Napaka: negativen polmer. Če je d negativen, naj izpiše Napaka: 
+negativen d.
+*/
+
 public class kviz4 {
     public static void main(String[] args) {
         krog(20, 14);

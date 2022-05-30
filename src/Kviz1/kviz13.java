@@ -1,5 +1,13 @@
 package Kviz1;
 
+/*
+Napiši metodo
+
+   void pitagoroviTrojcki(int x),
+
+ki izpiše vse možne trojke (a, b, c) pri 1 <= a <= b <= c <= x za katere velja a2 + b2 = c2.
+*/
+
 public class kviz13 {
     public static void main(String[] args) {
         pitagoroviTrojcki(5);

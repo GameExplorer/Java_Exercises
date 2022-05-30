@@ -6,7 +6,7 @@ Napiši metodo int[] presek(int[] tabela1, int[] tabela2), ki prejme dve tabeli 
 
 public class kviz2 {
     public static void main(String[] args) {
-        presek(new int[] {3,6,9,1,3,5,7,8,9}, new int[] {1,2,3,4,5,6,7,8,9});
+        System.out.print(presek(new int[] {3,6,9,1,3,5,7,8,9}, new int[] {1,2,3,4,5,6,7,8,9}));
     }
     public static int [] presek (int [] tabela, int [] tabela2) {
         java.util.ArrayList<Integer> presek = new java.util.ArrayList<Integer>();

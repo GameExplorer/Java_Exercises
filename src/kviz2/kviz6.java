@@ -3,7 +3,9 @@ package kviz2;
 
 public class kviz6 {
     public static void main(String[] args) {
-        koren(4, 2);
+        System.out.println(koren(10, 2));
+        System.out.println(koren(15, 5));
+        System.out.println(koren(101, 1));
     }
     public static double koren(int x, int d) {
         double[] decimal = new double[d + 1];

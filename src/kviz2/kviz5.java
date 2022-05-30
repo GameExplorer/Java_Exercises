@@ -5,7 +5,8 @@ package kviz2;
 
 public class kviz5 {
     public static void main(String[] args) {
-        duplikati(new int[] {3,6,9,1,3,5,7,8,9});
+        System.out.println(duplikati(new int[] {1, 5, 8, 56, 3, 9, 1, 43, 1, 2, 56, 12, 1, 3}));
+
     }
     public static int[] duplikati(int[] tabela) {
         java.util.ArrayList<Integer> duplikati = new java.util.ArrayList<>();

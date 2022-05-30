@@ -1,7 +1,34 @@
 package kviz2;
 
 public class kviz14 {
-    
+    public static void main(String[] args) {
+        izpisKoledarja(2022, 5);
+    }
+
+    public static void izpisKoledarja(int leto, int mesec) {
+        java.time.YearMonth ym = java.time.YearMonth.of(leto, mesec);
+        int steviloDni = ym.lengthOfMonth();
+        int prviDan = java.time.LocalDate.of(leto, mesec, 1).getDayOfWeek().getValue();
+
+        System.out.println("PO TO SR ČE PE SO NE");
+        String zamik = "";
+
+        for(int i = 0; i < prviDan - 1; i++) {
+            zamik += "   ";
+            
+        }
+        System.out.print(zamik);
+
+        int dan = 1;
+        for(int i = 0; dan <= steviloDni; i++) {
+            System.out.printf("%2d ", dan);
+
+            if((prviDan + dan - 1) % 7 == 0) {
+                System.out.println();
+            }
+            dan++;
+        }
+    }
 }
 
 /*

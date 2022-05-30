@@ -5,7 +5,7 @@ package kviz2;
 
 public class kviz3 {
     public static void main(String[] args) {
-        range(0, 10, 2);
+        System.out.print(range(0, 10, 2));
     }
 
     public static int [] range (int a, int b, int c) {

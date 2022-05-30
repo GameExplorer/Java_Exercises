@@ -3,7 +3,9 @@ package kviz2;
 
 public class kviz10 {
     public static void main(String[] args){
-        prepleti("pomlad", "JESEN");
+        System.out.println(prepleti("pomlad", "JESEN"));
+        System.out.println(prepleti("december", "maj"));
+        System.out.println(prepleti("POMLAD", "december"));
         odpleti("dmeacje m b e r ");
 
     }

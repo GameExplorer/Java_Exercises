@@ -12,9 +12,8 @@ Primeri:
 Metoda lahko uporabi le osnovne operacije in razrede (ne sme, na primer, uporabiti metode Integer.parseInt() in podobnih metod), rezultat naj pridobi s seštevanjem “bit po bitu”
 */
 public class kviz7 {
-    public static String main (String[] args) {
-        return binarnoSestej("12", "2");
-        
+    public static void main (String[] args) {
+        System.out.println(binarnoSestej("10", "11"));
     }
 
     public static String binarnoSestej(String s, String b) {

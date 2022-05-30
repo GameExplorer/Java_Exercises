@@ -5,8 +5,9 @@ package kviz2;
 
 public class kviz4 {
    public static void main(String[] args) {
-    rotiraj(new int[] {1, 2, 3, 4, 5, 6}, 2);
-   }
+    int[] t = new int[] {1, 2, 3, 4, 5, 6};
+    rotiraj(t, 3);
+    }
 
    static void rotiraj (int[] tabela, int k) {
        for(int i = 0; i < k; i++){

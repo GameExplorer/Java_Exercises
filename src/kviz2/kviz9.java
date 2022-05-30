@@ -13,8 +13,9 @@ Primer3: Kappa -> Kapappapa
 */
 
 public class kviz9 {
-    public static String main(String[] args){
-        return prevod("Dapanepas jepa lepap dapan");
+    public static void main(String[] args){
+        System.out.println(prevod("Dapanepas jepa lepap dapan"));
+        System.out.println(prevod("Napaka"));
     }
     
     public static String prevod(String niz) {

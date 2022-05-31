@@ -59,7 +59,7 @@ class MnozicaZnakov implements Mnozica {
 
 public class Naloga14 {
     public static void main(String[] args) {
-        // args = new String[]{"+a", "+b", "+c"};  // izpis : [a,b,c]
+        args = new String[]{"+a", "+b", "+c"};  // izpis : [a,b,c]
         //args = new String[]{"+a", "+b", "+c", "-a", "-b"};  // izpis : [c]
         //args = new String[]{"+d", "xe", "xe", "xe"};  // izpis : [c]
         //args = new String[]{"+x", "xy", "xz"};

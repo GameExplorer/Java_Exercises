@@ -30,7 +30,6 @@ public class Naloga11 {
         premakni(tabela);
         System.out.printf("Rotirana tabela:  %s\n", Arrays.toString(tabela));
     }
-
 }
 /*
 V tabeli imamo shranjena cela števila. Spodnji program dopolni z metodo premakni(), ki ciklično premakne elemente tabele

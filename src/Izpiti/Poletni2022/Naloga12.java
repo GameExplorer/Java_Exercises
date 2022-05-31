@@ -33,7 +33,8 @@ class Student {
 public class Naloga12 {
 
     public static void main(String[] args) {
-        //args = new String[]{"viri/studenti.txt", "viri/predmeti.txt", "viri/ocene.txt"};
+        args = new String[]{"src/izpiti/Poletni2022/viri/studenti.txt", "src/izpiti/Poletni2022/viri/predmeti.txt",
+                "src/izpiti/Poletni2022/viri/ocene.txt"};
         ArrayList<Student> studenti = new ArrayList<>();
         try (Scanner sc = new Scanner(new File(args[0]))) {
             while (sc.hasNextLine())

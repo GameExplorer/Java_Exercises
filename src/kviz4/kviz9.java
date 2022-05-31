@@ -12,8 +12,6 @@ public class kviz9 {
                     int sirina = ds.readInt();
                     int visina = ds.readInt();
                     java.util.TreeMap<String, Integer> barve = new java.util.TreeMap<>(
-                            // Presenečen kaj lahko IntelliJ naredi :)
-                            // Iz new Comparator itd. pretvori v lambdo in nato v tole.
                             java.util.Comparator.comparingInt(o -> Integer.parseInt(o, 16))
                     );
                     for (int i = 0; i < sirina * visina; i++) {

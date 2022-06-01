@@ -21,6 +21,7 @@ public class Naloga11 {
         }
     }
 
+
     public static void main(String[] args) {
         int[] tabela = new int[args.length];
         for (int i = 0; i < tabela.length; i++)

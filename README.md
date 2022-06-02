@@ -16,4 +16,3 @@ Java Vaje
 </ol>
 
 
- ![](https://tokei.rs/b1/github/GameExplorer/Java_Exercises?category=files)

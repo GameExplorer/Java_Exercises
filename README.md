@@ -14,3 +14,5 @@ Java Vaje
   <li>Domače naloge</li>
   <li>Ostale vaje</li>
 </ol>
+
+(https://tokei.rs/b1/github/GameExplorer/cryptoviz?category=files)

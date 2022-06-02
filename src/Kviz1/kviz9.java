@@ -5,7 +5,6 @@ Napiši metodo izrisiZastavo(int n), ki izriše zastavo različnih velikosti, ko
 
 Primer za n = 1, 2, 3:
 */
-
 public class kviz9 {
     public static void main(String[] args) {
         izrisiZastavo(4);

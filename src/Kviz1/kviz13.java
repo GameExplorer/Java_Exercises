@@ -12,7 +12,6 @@ public class kviz13 {
     public static void main(String[] args) {
         pitagoroviTrojcki(5);
     }
-
     public static void pitagoroviTrojcki(int x) {
         for (int a = 1; a <= x; a++) {
             for (int b = 1; b <= x; b++) {

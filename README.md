@@ -15,4 +15,4 @@ Java Vaje
   <li>Ostale vaje</li>
 </ol>
 
- ![](https://tokei.rs/b1/github/GameExplorer/cryptoviz?category=files)
+ ![](https://tokei.rs/b1/github/GameExplorer/Java_Exercises?category=files)

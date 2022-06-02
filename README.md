@@ -14,6 +14,6 @@ Java Vaje
   <li>Domače naloge</li>
   <li>Ostale vaje</li>
 </ol>
-![](https://tokei.rs/b1/github/GameExplorer/Java_Exercises)]
+![](https://tokei.rs/b1/github/GameExplorer/Java_Exercises)
 
  ![](https://tokei.rs/b1/github/GameExplorer/Java_Exercises?category=files)

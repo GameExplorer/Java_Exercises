@@ -2,7 +2,12 @@ package kviz3;
 
 public class kviz4 {
     public static void main(String[] args){
-
+        String niz = "abc perica  reže raci rep def";
+        System.out.printf("Najdaljši palindrom v nizu '%s' je '%s'\n", niz, najdaljsiPalindrom(niz, false));
+        niz = "abc perica  reže raci rep def";
+        System.out.printf("Najdaljši palindrom v nizu '%s' je '%s'\n", niz, najdaljsiPalindrom(niz, true));
+        niz = "abcdeJavaRuleseluRavaJfghijk";
+        System.out.printf("Najdaljši palindrom v nizu '%s' je '%s'\n", niz, najdaljsiPalindrom(niz, true));
     }
 
     public static String najdaljsiPalindrom(String niz, boolean presledki) {

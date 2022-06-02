@@ -2,7 +2,7 @@ package kviz3;
 
 public class kviz13 {
     public static void main(String[] args) {
-
+        preberiInIzpisi("src/kviz3/assets/i1");
     }
     static void preberiInIzpisi(String oznaka) {
         try {

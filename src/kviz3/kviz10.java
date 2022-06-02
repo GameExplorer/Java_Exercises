@@ -2,7 +2,7 @@ package kviz3;
 
 public class kviz10 {
     public static void main(String[] args){
-        bsdChecksum("filename.txt");
+        bsdChecksum("src/kviz3/assets/filename.txt");
     }
     public static int bsdChecksum(String filename){
         try {

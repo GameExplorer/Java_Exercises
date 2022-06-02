@@ -2,7 +2,6 @@ package kviz3;
 
 public class kviz9 {
     public static void main(String[] args) {
-
     }
     /*
     Write the method static int calculateRPN (String account),

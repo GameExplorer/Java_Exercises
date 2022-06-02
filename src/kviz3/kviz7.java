@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 public class kviz7 {
     public static void main(String[] args) {
-
+        Matrika m1 = Matrika.preberiMatriko("src/kviz3/assets/m1.txt");
+        m1.izpis();
     }
 }
 

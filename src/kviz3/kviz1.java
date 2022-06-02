@@ -8,9 +8,12 @@ Polinom s celoštevilskimi koeficienti  a0+a1 x + a2 x^2 + … + a(n-1) x^(n-1) 
 pri čemer je a.length == n.  Napiši metodo int[] sestejPolinoma(int[] a, int[] b), ki prejme polinoma a in b in vrne njuno vsoto.
 */
 
+import java.util.Arrays;
+
 public class kviz1 {
     public static void main(String[] args) {
-        
+        System.out.println(Arrays.toString(sestejPolinoma(new int[] { 1, 2, 3 }, new int[]{ 4, 5, 6 })));
+
     }
 
     public static int [] sestejPolinoma(int [] a, int [] b) {

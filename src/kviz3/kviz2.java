@@ -9,8 +9,11 @@ Polinom s celoštevilskimi koeficienti  a0+a1 x + a2 x^2 + … + a(n-1) x^(n-1) 
 pri čemer je a.length == n.  Napiši metodo int[] zmnoziPolinoma(int[] a, int[] b), ki prejme polinoma a in b in vrne njun produkt.
 */
 
+import java.util.Arrays;
+
 public class kviz2 {
     public static void main (String[] args) {
+        System.out.println(Arrays.toString(zmnoziPolinoma(new int[] { 1, 2, 3 }, new int[]{ 4, 5, 6 })));
 
     }
     public static int [] zmnoziPolinoma (int [] a, int [] b) {

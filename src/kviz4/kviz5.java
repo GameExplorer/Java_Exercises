@@ -2,7 +2,7 @@ package kviz4;
 
 public class kviz5 {
     public static void main(String[] args) {
-        izpisi("assets/strito.dat");
+        izpisi("src/kviz4/assets/skrito.dat");
     }
     static void izpisi(String imeDatoteke) {
         System.out.println("V datoteki " + imeDatoteke + " so naslednje številke:");

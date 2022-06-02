@@ -2,6 +2,7 @@ package kviz4;
 
 public class kviz7 {
     public static void main(String[] args) {
+        izpisiBesedilo("src/kviz4/assets/besedilo1.txt", 20, 30);
 
     }
     static void izpisiBesedilo(String imeDatoteke, int n, int s) {

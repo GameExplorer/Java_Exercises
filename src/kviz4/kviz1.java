@@ -2,9 +2,9 @@ package kviz4;
 
 public class kviz1 {
     public static void main(String[] args) {
-
+        dvojnaNagrade("src/kviz4/assets/igralke.csv", "src/kviz4/assets/igralci.csv");
     }
-    static void dvojnaNagrada(String igralkeFilename, String igralciFilename) {
+    static void dvojnaNagrade(String igralkeFilename, String igralciFilename) {
         try{
             java.util.ArrayList<String[]> igralke = new java.util.ArrayList<>();
             java.util.ArrayList<String[]> igralci = new java.util.ArrayList<>();

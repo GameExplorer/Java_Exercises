@@ -2,7 +2,7 @@ package kviz4;
 
 public class kviz3 {
     public static void main(String[] args) {
-        statistikaStavkov("assets/besedilo1.txt");
+        statistikaStavkov("src/kviz4/assets/besedilo2.txt");
     }
     static void statistikaStavkov(String imeDatoteke) throws IzjemaManjkajocegaLocila {
         try {

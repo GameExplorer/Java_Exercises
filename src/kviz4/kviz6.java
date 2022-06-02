@@ -2,7 +2,7 @@ package kviz4;
 
 public class kviz6 {
     public static void main(String[] args) {
-
+        preveri("05 / 350 951", "src/kviz4/assets/skrito.dat");
     }
     static void preveri(String stevilka, String imeDatoteke) {
         try {

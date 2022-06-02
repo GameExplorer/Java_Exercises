@@ -2,7 +2,7 @@ package kviz4;
 
 public class kviz4 {
     public static void main(String[] args) {
-        preberiRacunInIzpisi("/assets/racun.txt");
+        preberiRacunInIzpisi("src/kviz4/assets/racun.txt");
     }
     static void preberiRacunInIzpisi(String imeDatoteke) {
         try {

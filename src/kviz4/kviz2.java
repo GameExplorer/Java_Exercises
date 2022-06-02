@@ -2,7 +2,7 @@ package kviz4;
 
 public class kviz2 {
     public static void main(String[] args) {
-        poisciInIzpisiBarve("kviz4/assets/style.css");
+        poisciInIzpisiBarve("src/kviz4/assets/style.css");
     }
     static void poisciInIzpisiBarve(String imeDatoteke) {
         try {

@@ -1,8 +1,10 @@
 package kviz4;
 
+import java.util.Arrays;
+
 public class kviz10 {
     public static void main(String[] args) {
-
+        izpisi("src/kviz4/assets/skrito.dat");
     }
     static void izpisi(String imeDatoteke) {
         System.out.println("V datoteki " + imeDatoteke + " so naslednje številke:");
@@ -34,7 +36,8 @@ Napišite metodo
 
   void izpisi(int znak[]),
 
-ki prejme tabelo 8-bitnih števil in izpiše znak, ki ga ta tabela predstavlja. Pri tem i-ti element tabele predstavlja i-to vrstico znaka po bitih: če je j-ti bit i-tega števila prižgan, je v i-ti vrstici na j-tem mestu izpisana zvezdica, sicer presledek.
+ki prejme tabelo 8-bitnih števil in izpiše znak, ki ga ta tabela predstavlja. Pri tem i-ti element tabele predstavlja i-to
+vrstico znaka po bitih: če je j-ti bit i-tega števila prižgan, je v i-ti vrstici na j-tem mestu izpisana zvezdica, sicer presledek.
 
 
 

@@ -2,7 +2,7 @@ package kviz4;
 
 public class kviz9 {
     public static void main(String[] args){
-
+        histogram("src/kviz4/assets/ikona.p2b");
     }
     static void histogram(String imeDatoteke) {
         try {

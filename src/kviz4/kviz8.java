@@ -2,7 +2,7 @@ package kviz4;
 
 public class kviz8 {
     public static void main(String[] args) {
-
+        izracunaj("src/kviz4/assets/test1.clc");
     }
     static void izracunaj(String imeDatoteke) {
         try {

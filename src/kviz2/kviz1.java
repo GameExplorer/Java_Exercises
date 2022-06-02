@@ -3,9 +3,11 @@ Napiši metodo int[] unija(int[] tabela1, int[] tabela2), ki prejme dve tabeli i
 */
 package kviz2;
 
+import java.util.Arrays;
+
 public class kviz1 {
     public static void main(String[] args){
-       System.out.print(unija(new int[] {3,6,9,1,3,5,7,8,9}, new int[] {1,2,3,4,5,6,7,8,9}));
+        System.out.println(Arrays.toString(unija(new int[] {3, 6, 9, 1, 3, 5}, new int[] {3, 4, 6, 1, 3, 8})));
     }
     public static int [] unija (int [] tabela, int [] tabela2) {
         int [] tabela3 = new int [tabela.length + tabela2.length];

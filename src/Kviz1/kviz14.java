@@ -9,7 +9,6 @@ public class kviz14 {
     public static void main(String[] args) {
         narisiDrevo(10);
     }
-
     public static void narisiDrevo(int n) {
         switch (n) {
             case 0:

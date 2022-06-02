@@ -8,7 +8,8 @@ Podatke o črkah Morsejeve abecede lahko dobiš tule.
 
 public class kviz11 {
     public static void main(String[] args) {
-        vMorse("SOS");
+
+        System.out.print(vMorse("SOS"));
     }
 
     public static String vMorse(String niz) {

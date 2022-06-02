@@ -57,6 +57,6 @@ public class kviz9 {
                 }
             }
         }
-        return prevod(niz);
+        return niz;
     }
 }

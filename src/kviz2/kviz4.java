@@ -3,13 +3,16 @@ Napiši metodo void rotiraj(int [] tabela, int k), ki podano tabelo  rotira za k
 */
 package kviz2;
 
+import java.util.Arrays;
+
 public class kviz4 {
    public static void main(String[] args) {
-    int[] t = new int[] {1, 2, 3, 4, 5, 6};
-    rotiraj(t, 3);
-    }
+       int[] t = new int[] {1, 2, 3, 4, 5, 6};
+       rotiraj(t, 3);
+       System.out.println(Arrays.toString(t));
+   }
 
-   static void rotiraj (int[] tabela, int k) {
+   static boolean rotiraj (int[] tabela, int k) {
        for(int i = 0; i < k; i++){
         int tabela2 = tabela[0];
            for(int j = 0; j < tabela.length - 1; j++){
@@ -17,5 +20,6 @@ public class kviz4 {
            }
         tabela[tabela.length - 1] = tabela2;
        }
+       return false;
    }
 }

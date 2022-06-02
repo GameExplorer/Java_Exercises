@@ -4,9 +4,11 @@ package kviz2;
 Napiši metodo int[] presek(int[] tabela1, int[] tabela2), ki prejme dve tabeli in vrne njun presek (elemente, ki so hkrati v prvi in drugi tabeli). V preseku se vsak elementi pojavijo največ enkrat.
 */
 
+import java.util.Arrays;
+
 public class kviz2 {
     public static void main(String[] args) {
-        System.out.print(presek(new int[] {3,6,9,1,3,5,7,8,9}, new int[] {1,2,3,4,5,6,7,8,9}));
+        System.out.println(Arrays.toString(presek(new int[] {9,4,6,3}, new int[] {1,6,3,9,0})));
     }
     public static int [] presek (int [] tabela, int [] tabela2) {
         java.util.ArrayList<Integer> presek = new java.util.ArrayList<Integer>();

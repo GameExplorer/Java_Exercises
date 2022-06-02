@@ -1,8 +1,11 @@
 package kviz2;
+
+import java.util.Arrays;
+
 public class kviz13 {
     public static void main(String[] args){
-        System.out.println(pascal(10));
-    }
+
+        System.out.println(Arrays.toString(pascal(10)));    }
     /*
     Napiši metodo int[] pascal(int n), ki ustvari in vrne n-to vrstico Pascalovega trikotnika.
 

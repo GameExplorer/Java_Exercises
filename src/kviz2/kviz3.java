@@ -3,9 +3,11 @@ Napiši metodo int[] range(int a, int b, int c), ki prejme števila a, b, c > 0 
 */
 package kviz2;
 
+import java.util.Arrays;
+
 public class kviz3 {
     public static void main(String[] args) {
-        System.out.print(range(0, 10, 2));
+        System.out.println(Arrays.toString(range(0, 10, 2)));
     }
 
     public static int [] range (int a, int b, int c) {

@@ -3,9 +3,11 @@ Napiši metodo int [] duplikati(int [] tabela), ki v podani tabeli izbriše podv
 */
 package kviz2;
 
+import java.util.Arrays;
+
 public class kviz5 {
     public static void main(String[] args) {
-        System.out.println(duplikati(new int[] {1, 5, 8, 56, 3, 9, 1, 43, 1, 2, 56, 12, 1, 3}));
+        System.out.println(Arrays.toString(duplikati(new int[] {1, 5, 8, 56, 3, 9, 1, 43, 1, 2, 56, 12, 1, 3})));
 
     }
     public static int[] duplikati(int[] tabela) {

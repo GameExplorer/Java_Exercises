@@ -2,7 +2,7 @@ package kviz2;
 
 public class kviz14 {
     public static void main(String[] args) {
-        izpisKoledarja(2022, 5);
+        izpisKoledarja(2022, 6);
     }
 
     public static void izpisKoledarja(int leto, int mesec) {

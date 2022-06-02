@@ -14,5 +14,6 @@ Java Vaje
   <li>Domače naloge</li>
   <li>Ostale vaje</li>
 </ol>
+[![Scc Count Badge](https://sloc.xyz/github/GamExplorer/Java_Exercises/)](https://github.com/GamExplorer/Java_Exercises/)
 
 

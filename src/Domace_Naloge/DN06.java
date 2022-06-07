@@ -1,7 +1,6 @@
 package Domace_Naloge;
-
 public class DN06 {
-
+    
     // Kontrolna vsota BSD (povzeto po https://en.wikipedia.org/wiki/BSD_checksum)
     static int bsdChecksum(String niz) {
         int checksum = 0;
@@ -13,7 +12,6 @@ public class DN06 {
         }
         return checksum;
     }
-
     // Motoda prejme niz in vrne prvi po abecedi večji ni
     static String povecaj(String niz) {
         int z = niz.length()-1;
@@ -29,7 +27,6 @@ public class DN06 {
         // ... če pa taka črka ne obstaja, večjega niza te dolžine ni, zato vrnem null
         return null;
     }
-
     public static void main(String[] args) {
         if (args.length != 1) {
             System.out.println("Program potrebuje en argument!");

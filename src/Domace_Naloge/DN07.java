@@ -14,7 +14,7 @@ public class DN07 {
 
         return prva[rnd1] + druga[rnd2] + tretja[rnd3];
     }
-    
+
     // metoda vrne true, če tabela "besede" vsebuje besedo "beseda"
     static boolean tabelaVsebuje(String beseda, String[] besede) {
         for (int i = 0; i < besede.length; i++) {

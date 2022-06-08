@@ -1,4 +1,39 @@
 package Domace_Naloge;
+
+/*
+Definicija: dana niza sta sorodna, če sta enako dolga in imata enako kontrolno vsoto BSD.
+
+Naloga: Napiši program DN06, ki izpiše po abecedi najmanjši niz, ki je sestavljen iz malih črk angleške abecede
+in je soroden prvemu argumentu programa.
+
+Primer: Niz "korona" ima enako BDS kontrolno vsoto kot nizi "ababan", "ababcm", "ababel", .... Ker je niz "ababan"
+(po abecedi) najmanjši, naj vaš program ob klicu
+
+java DN06 korona
+izpiše
+
+ababan
+Dodatna navodila:
+
+Kontrolna vsota BSD se izračuna tako, da se med seštevanjem znakov podanega niza na vsakem koraku prvi bit
+ciklično premakne na zadnje (15.) mesto, poleg tega pa se vsoto ves čas drži na interval [0...65535]. Natančneje,
+BDS vsoto (checksum) lahko izračunamo z naslednjo metodo:
+  static int bsdChecksum(String niz) {
+    // https://en.wikipedia.org/wiki/BSD_checksum
+    int checksum = 0;
+
+    for (int i = 0; i<niz.length(); i++) {
+      checksum = (checksum >> 1) + ((checksum & 1) << 15);
+      checksum += niz.charAt(i);
+      checksum &= 0xffff;
+    }
+    return checksum;
+  }
+Nizi dolžine 5 so po vrsti (po abecednem redu) urejeni takole: "aaaaa", "aaaab", "aaaac", ...., "aaaaz", "aaaba", "aaabb", ...
+Ker morate poiskati prvi niz (ki je soroden podanemu nizu), svetujem, da začnete z najmanjšim nizom (to je niz,
+ki vsebuje toliko a-jev kot je dolžina niza, ki je podan v argumentu) in ga povečujete. Napišete metodo
+String povecaj(String niz), ki prejme niz in vrne prvi večji niz. Primer: metoda povecaj("aaaab") vrne "aaaac".
+ */
 public class DN06 {
 
     // Kontrolna vsota BSD (povzeto po https://en.wikipedia.org/wiki/BSD_checksum)

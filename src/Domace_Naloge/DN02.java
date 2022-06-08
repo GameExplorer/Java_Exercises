@@ -1,5 +1,18 @@
 package Domace_Naloge;
 
+/*
+Napišite program DN02, ki argumente programa izpiše na zaslon. Pri tem naj vsak argument uokviri. Znak za okvir naj se
+izmenično spreminja - prvi argument naj bo uokvirjen z znakom *, drugi z znakom +, tretji z *, ...
+
+Primer: ob klicu programa
+
+java DN02 pomlad poletje jesen zima
+naj program izpiše
+
+********** +++++++++++ ********* ++++++++
+* pomlad * + poletje + * jesen * + zima +
+********** +++++++++++ ********* ++++++++
+ */
 public class DN02 {
 
     public static void main(String[] args) {

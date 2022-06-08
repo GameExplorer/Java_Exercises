@@ -1,5 +1,24 @@
 package Domace_Naloge;
 
+/*
+Dvojiški zapis znaka je zaporedje osmih enic in ničel, ki predstavljajo dvojiški zapis ASCII kode znaka.
+Primer: ker je ASCII koda znaka 'A' enaka 65, je dvojiški zapis znaka 'A' enak "01000001".
+
+Dvojiški zapis sporočila je zaporedje dvojiških zapisov znakov, ki sestavljajo sporočilo.
+Primer: dvojiški zapis sporočila "ABC" je enak "010000010100001001000011".
+
+Naloga:  Napiši program DN04, ki v prvem argumentu prejme dvojiški zapis sporočila in na zaslon
+izpiše originalno sporočilo v ASCII obliki.
+
+Primer: ob klicu programa
+
+  java DN04 010000010100001001000011
+naj program izpiše
+
+ABC
+Opomba: za "pretvorbo" iz številke v znak uporabite "type-casting", takole:  char znakA = (char) 65.
+*/
+
 /**
  *   Prvi del programa vsebuje metodi za kodiranje dvojiskiZapisZnaka() in
  *   dvojiskiZapisSporocila() - to ni bil del domače naloge, sem pa metodi

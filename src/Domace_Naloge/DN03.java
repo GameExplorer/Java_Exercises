@@ -4,6 +4,17 @@ import java.io.File;
 import java.util.Random;
 import java.util.Scanner;
 
+/*
+Napiši program DN03, ki ustvari naključno geslo dolzine n (drugi argument) po naslednjem postopku:  najprej v tabelo besede
+prebere vse besede, ki so zapisane v datoteki, katere ime je podano v prvem argumentu (glej primer spodaj), nato pa geslo
+sestavi iz  črk prebranih besed in sicer tako, da n-krat izbere naključno črko naključno izbrane besede iz tabele.
+
+Naključna števila ustvarite s pomočjo razreda Random in metode nextInt(n). Začetno seme za generiranje zaporedja
+naključnih števil je podano kot tretji argument ob klicu programa.
+
+Datoteka z besedami (primer: gesla.txt) v prvi vrstici vsebuje podatek o številu besed,
+nato v vsaki vrstici po eno besedo.
+ */
 public class DN03 {
 
     static String[] preberiBesede(String imeDatoteke) throws Exception {

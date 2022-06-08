@@ -5,7 +5,17 @@ import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 
+/*
+Napiši program DN12, ki izpiše velikost podane PNG datoteke. Ime datoteke je podano kot prvi argument ob klicu programa.
 
+Primer: ob klicu
+
+java DN12 opica.png
+naj program izpiše
+
+219 x 230
+Če vhodna datoteke ni formata PNG, naj program izpiše le ?.
+ */
 public class DN12 {
 
     public static void main(String[] args) {

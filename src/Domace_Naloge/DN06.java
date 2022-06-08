@@ -1,6 +1,6 @@
 package Domace_Naloge;
 public class DN06 {
-    
+
     // Kontrolna vsota BSD (povzeto po https://en.wikipedia.org/wiki/BSD_checksum)
     static int bsdChecksum(String niz) {
         int checksum = 0;

@@ -27,11 +27,6 @@ class Planet {
     }
 }
 
-
-/**
- *
- * @author tomaz
- */
 public class DN09 {
 
     /**

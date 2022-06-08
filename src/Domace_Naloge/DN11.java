@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
+
 public class DN11 {
     public static void main(String[] args) throws FileNotFoundException{
         Locale.setDefault(Locale.US);
@@ -28,9 +29,9 @@ public class DN11 {
             omrezje.crpalkeObPoti(vozlisca);
         } else if (args[0].equals("obremenjeneCeste")) {
             omrezje.obremenjeneCeste(args[2]);
-        } else if (args[0].equals("izrisi")) {
+        } /*else if (args[0].equals("izrisi")) {
             omrezje.izrisiOmrezje();
-        } else if (args[0].equals("najkrajsaPot")) {
+        }*/ else if (args[0].equals("najkrajsaPot")) {
             omrezje.najboljsaPot(Integer.parseInt(args[2]), Integer.parseInt(args[3]), false);
         } else if (args[0].equals("najhitrejsaPot")) {
             omrezje.najboljsaPot(Integer.parseInt(args[2]), Integer.parseInt(args[3]), true);
@@ -210,6 +211,7 @@ class CestnoOmrezje{
     /**
      * Izrise omrezje s StdDraw.
      */
+    /*
     public void izrisiOmrezje(){
         StdDraw.setCanvasSize(IZRIS_SIRINA, IZRIS_VISINA);
 
@@ -287,7 +289,7 @@ class CestnoOmrezje{
             StdDraw.text((v.getLon() - xMin) / xRange * IZRIS_SIRINA, (v.getLat() - yMin) / yRange * IZRIS_VISINA - 20, v.getId() + "");
         }
     }
-
+*/
     /**
      * Poisce najkrajso (cas=false) oz. najhitrejso (cas=true) pot med vozliscema i1 in i2.
      * @param i1 Indeks zacetnega vozlisca.

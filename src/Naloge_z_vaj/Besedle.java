@@ -53,16 +53,16 @@ public class Besedle {
     // Prebere seznam besed iz datoteke
     static void preberiBesede(String datoteka) throws FileNotFoundException {
         File f = new File(datoteka);
-        Scanner sc = new Scanner(f);
+        try (Scanner sc = new Scanner(f)) {
+            // Stevilo besed
+            int stBesed = sc.nextInt();
+            sc.nextLine();
 
-        // Stevilo besed
-        int stBesed = sc.nextInt();
-        sc.nextLine();
-
-        // Seznam besed
-        seznamBesed = new String[stBesed];
-        for (int i = 0; i < stBesed; i++) {
-            seznamBesed[i] = sc.nextLine().toUpperCase();
+            // Seznam besed
+            seznamBesed = new String[stBesed];
+            for (int i = 0; i < stBesed; i++) {
+                seznamBesed[i] = sc.nextLine().toUpperCase();
+            }
         }
     }
 
@@ -145,16 +145,16 @@ public class Besedle {
     // Prebere slovar iz datoteke
     static void preberiSlovar(String datoteka) throws FileNotFoundException {
         File f = new File(datoteka);
-        Scanner sc = new Scanner(f);
+        try (Scanner sc = new Scanner(f)) {
+            // Stevilo besed
+            int stBesed = sc.nextInt();
+            sc.nextLine();
 
-        // Stevilo besed
-        int stBesed = sc.nextInt();
-        sc.nextLine();
-
-        // Slovar
-        slovar = new String[stBesed];
-        for (int i = 0; i < stBesed; i++) {
-            slovar[i] = sc.nextLine().toUpperCase();
+            // Slovar
+            slovar = new String[stBesed];
+            for (int i = 0; i < stBesed; i++) {
+                slovar[i] = sc.nextLine().toUpperCase();
+            }
         }
     }
 

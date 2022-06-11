@@ -297,9 +297,6 @@ class CestnoOmrezje{
      * @param cas Ali iscemo najhitrejso pot?
      */
     public void najboljsaPot(int i1, int i2, boolean cas){
-        Vozlisce v1 = vozlisca[i1];
-        Vozlisce v2 = vozlisca[i2];
-
         // Najcenejsa (najkrajsa/najhitrejsa) pot od v1 do ostalih vozlisc
         double[] cene = new double[vozlisca.length];
         // Ali je vozlisce ze preiskano?

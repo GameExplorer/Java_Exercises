@@ -20,7 +20,7 @@ public class kviz14 {
         System.out.print(zamik);
 
         int dan = 1;
-        for(int i = 0; dan <= steviloDni; i++) {
+        for(; dan <= steviloDni;) {
             System.out.printf("%2d ", dan);
 
             if((prviDan + dan - 1) % 7 == 0) {

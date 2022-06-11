@@ -1,4 +1,4 @@
-package vinjete;
+package Naloge_z_vaj.vinjete;
 
 public class Vinjeta {
     private String registrska;   // registrska številka vozila

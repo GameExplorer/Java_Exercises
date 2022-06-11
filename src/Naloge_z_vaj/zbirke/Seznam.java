@@ -1,4 +1,6 @@
-package zbirke;
+package Naloge_z_vaj.zbirke;
+
+
 
 public class Seznam {
     private static String[] seznam; // tabela, v kateri hranimo elemente seznama
@@ -102,7 +104,7 @@ public class Seznam {
      *
      * @param velikIzpis - če je true, se za izpis elementov uporabi znake 64-bitne abecede; sicer je izpis navaden
      */
-    private static void izpisSeznamaNacin(boolean velikIzpis) {
+    public static void izpisSeznamaNacin(boolean velikIzpis) {
         if (seznam == null) {
             System.out.println("NAPAKA: Seznam ne obstaja.");
             return;
@@ -115,13 +117,17 @@ public class Seznam {
         for (int i = 0; i < dolzina; i++) {
             String vrstica = String.format("%d: %s", i + 1, seznam[i]);
             if (velikIzpis) {
-                izpis.Znaki.izpisi64bit(vrstica);
+                extracted(vrstica);
                 //izpis.Znaki.izpisi16bit(vrstica);
                 System.out.println();
             } else {
                 System.out.println(vrstica);
             }
         }
+    }
+
+    private static void extracted(String vrstica) {
+        Naloge_z_vaj.izpis.Znaki.izpisi64bit(vrstica);
     }
 
     /**

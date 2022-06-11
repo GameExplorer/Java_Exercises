@@ -1,4 +1,4 @@
-package vinjete;
+package Naloge_z_vaj.vinjete;
 
 import java.io.File;
 import java.io.FileNotFoundException;

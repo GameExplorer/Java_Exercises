@@ -1,4 +1,4 @@
-package imenik;
+package Naloge_z_vaj.imenik;
 
 import java.io.File;
 import java.io.FileNotFoundException;

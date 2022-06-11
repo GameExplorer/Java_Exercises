@@ -1,6 +1,5 @@
 package kviz4;
 
-import java.util.Arrays;
 
 public class kviz10 {
     public static void main(String[] args) {

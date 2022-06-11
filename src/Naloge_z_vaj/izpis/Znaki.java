@@ -1,4 +1,4 @@
-package izpis;
+package Naloge_z_vaj.izpis;
 
 
 public class Znaki {
@@ -96,7 +96,7 @@ public class Znaki {
     //
     // metode za izpis abecede 4 x 4
     //
-    private static void izpisi16bit(short kodaZnaka) {
+    public static void izpisi16bit(short kodaZnaka) {
         for (int i = 3; i >= 0; i--) {
             for (int j = 3; j >= 0; j--) {
                 short bit = (short) (1 << 4 * i + j);
@@ -106,7 +106,7 @@ public class Znaki {
         }
     }
 
-    private static void izpisi16bit(short[] nizZnakov) {
+    public static void izpisi16bit(short[] nizZnakov) {
         for (int i = 3; i >= 0; i--) {
             for (int k = 0; k < nizZnakov.length; k++) {
                 for (int j = 3; j >= 0; j--) {
@@ -119,7 +119,7 @@ public class Znaki {
         }
     }
 
-    private static int getChar(char c) {
+    public static int getChar(char c) {
         for (int i = 0; i < abeceda.length; i++) {
             if (c == abeceda[i]) {
                 return i;
@@ -140,7 +140,7 @@ public class Znaki {
     //
     // metode za izpis abecede 8 x 8
     //
-    private static void izpisi64bit(long kodaZnaka) {
+    public static void izpisi64bit(long kodaZnaka) {
         for (int i = 7; i >= 0; i--) {
             for (int j = 7; j >= 0; j--) {
                 long bit = 1L << (8 * i + j);
@@ -150,7 +150,7 @@ public class Znaki {
         }
     }
 
-    private static void izpisi64bit(long[] nizZnakov) {
+    public static void izpisi64bit(long[] nizZnakov) {
         for (int i = 7; i >= 0; i--) {
             for (int k = 0; k < nizZnakov.length; k++) {
                 for (int j = 7; j >= 0; j--) {

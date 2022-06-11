@@ -1,6 +1,6 @@
-package aplikacija;
+package Naloge_z_vaj.aplikacija;
 
-import vinjete.SeznamVinjet;
+import Naloge_z_vaj.vinjete.SeznamVinjet;
 
 import java.io.FileNotFoundException;
 

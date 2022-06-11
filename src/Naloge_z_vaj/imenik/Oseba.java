@@ -1,4 +1,4 @@
-package imenik;
+package Naloge_z_vaj.imenik;
 
 public class Oseba {
     private String ime;

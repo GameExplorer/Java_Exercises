@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class dec_to_octal {
     public static void main(String args[])
     {
-        int dec_num, rem, quot, i=1, j;
+        int dec_num, quot, i=1, j;
         int[] oct_num = new int[100];
-        Scanner scan = new Scanner(System.in);
-
-        System.out.print("Input a Decimal Number: ");
-        dec_num = scan.nextInt();
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.print("Input a Decimal Number: ");
+            dec_num = scan.nextInt();
+        }
 
         quot = dec_num;
 

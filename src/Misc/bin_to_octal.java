@@ -7,9 +7,10 @@ public class bin_to_octal {
     {
         int binnum, binnum1,rem, decnum=0, quot, i=1, j;
         int[] octnum = new int[100];
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Input a Binary Number : ");
-        binnum = scan.nextInt();
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.print("Input a Binary Number : ");
+            binnum = scan.nextInt();
+        }
         binnum1=binnum;
 
         while(binnum > 0)

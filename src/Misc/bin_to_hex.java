@@ -7,9 +7,10 @@ public class bin_to_hex {
     {
         int[] hex = new int[1000];
         int i = 1, j = 0, rem, dec = 0, bin;
-        Scanner in = new Scanner(System.in);
-        System.out.print("Input a Binary Number: ");
-        bin = in.nextInt();
+        try (Scanner in = new Scanner(System.in)) {
+            System.out.print("Input a Binary Number: ");
+            bin = in.nextInt();
+        }
         while (bin > 0) {
             rem = bin % 2;
             dec = dec + rem * i;

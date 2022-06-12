@@ -2,7 +2,7 @@ package Misc;
 
 import java.util.Scanner;
 
-public class binary_converter {
+public class bin_to_dec {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);

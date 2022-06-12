@@ -2,7 +2,7 @@ package Misc;
 
 import java.util.Scanner;
 
-public class hex_converter {
+public class dec_to_hex {
     public static void main(String[] args)
     {
         int dec_num, rem;

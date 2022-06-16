@@ -5,7 +5,6 @@ import Naloge_z_vaj.banka.Banka;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
 public class Upravljanje {
 
     // Iz podane datoteke prebere podatke o računih in ustvari račune v podani banki.

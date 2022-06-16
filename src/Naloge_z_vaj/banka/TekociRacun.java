@@ -9,6 +9,7 @@ public class TekociRacun extends Racun {
      * @param stevilka - številka računa
      * @param limit    - omejitev zneska pri vsakem dvigu
      */
+
     public TekociRacun(String stevilka, double limit) {
         super(stevilka);
         this.limit = limit;

@@ -1,5 +1,4 @@
-package banka;
-
+package Naloge_z_vaj.banka;
 public abstract class Racun {
     private double stanje; // stanje na računu
     private final String stevilka; // številka računa

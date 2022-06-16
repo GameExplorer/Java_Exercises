@@ -3,7 +3,6 @@ package Naloge_z_vaj.aplikacija;
 import Naloge_z_vaj.vinjete.SeznamVinjet;
 
 import java.io.FileNotFoundException;
-
 public class Kontrola {
     public static void main(String[] args) throws FileNotFoundException {
         String dat = "src/Naloge_z_vaj/assets/vinjete.txt";

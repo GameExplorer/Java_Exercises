@@ -1,6 +1,6 @@
 package Naloge_z_vaj.banka;
 
-public class VarcevalniRacun extends banka.Racun {
+public class VarcevalniRacun extends Naloge_z_vaj.banka.Racun {
     private double obresti; // obrestna mera (npr. 0,01 pomeni 1% obrestno mero)
 
     /**

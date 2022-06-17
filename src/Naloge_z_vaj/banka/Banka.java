@@ -1,14 +1,12 @@
 package Naloge_z_vaj.banka;
 
-import Naloge_z_vaj.banka.*;
-
 public class Banka {
     public static final int MAX_RACUNOV = 500; // omejitev števila računov za vse banke
-    public banka.Racun[] racuni = new banka.Racun[MAX_RACUNOV]; // seznam vseh računov v banki
+    public Naloge_z_vaj.banka.Racun[] racuni = new Naloge_z_vaj.banka.Racun[MAX_RACUNOV]; // seznam vseh računov v banki
     public int steviloRacunov = 0; // število računov na banki
 
     // Poišče račun s podano številko in ga vrne; če takega računa ni, vrne null.
-    public banka.Racun vrniRacun(String stevilka) {
+    public Naloge_z_vaj.banka.Racun vrniRacun(String stevilka) {
         for (int i = 0; i < steviloRacunov; i++) {
             if (racuni[i].getStevilka().equals(stevilka)) {
                 return racuni[i];
@@ -40,14 +38,16 @@ public class Banka {
      *
      * @param stevilka - številka novega računa
      * @param obresti  - obrestna mera pri novem računu
-     * @return true, če je račun uspešno dodan, sicer false
      */
-    public boolean dodajVarcevalniRacun(String stevilka, double obresti) {
+    public void dodajVarcevalniRacun(String stevilka, double obresti) {
         if (vrniRacun(stevilka) == null && steviloRacunov < racuni.length) {
-            racuni[steviloRacunov++] = new VarcevalniRacun(stevilka, obresti);
-            return true;
+            racuni[steviloRacunov++] = new Racun(stevilka, obresti) {
+                @Override
+                protected String opisRacuna() {
+                    return null;
+                }
+            };
         }
-        return false;
     }
 
     /**
@@ -86,7 +86,7 @@ public class Banka {
      * @return true, če je bil dvig uspešno izveden, sicer false
      */
     public boolean dvig(String stevilka, double znesek) {
-        banka.Racun r = vrniRacun(stevilka);
+        Naloge_z_vaj.banka.Racun r = vrniRacun(stevilka);
         if (r != null) {
             return r.dvig(znesek);
         }
@@ -101,7 +101,7 @@ public class Banka {
      * @return true, če je bil polog uspešno izveden, sicer false
      */
     public boolean polog(String stevilka, double znesek) {
-        banka.Racun r = vrniRacun(stevilka);
+        Naloge_z_vaj.banka.Racun r = vrniRacun(stevilka);
         if (r != null) {
             return r.polog(znesek);
         }
@@ -123,7 +123,7 @@ public class Banka {
     // Pomožna metoda za urejanje: primerja računa r1 in r2 po velikosti glede na polje.
     // Polje je "stevilka" ali "stanje".
     // Vrne true, če je r1 večje (padajoce = true) oz. manjše (padajoce = false) od r2.
-    private boolean vecji(banka.Racun r1, banka.Racun r2, String polje, boolean padajoce) {
+    private boolean vecji(Naloge_z_vaj.banka.Racun r1, Naloge_z_vaj.banka.Racun r2, String polje, boolean padajoce) {
         if (polje.equals("stevilka")) {
             // primerjamo polje "stevilka"
             return (padajoce ? r1.getStevilka().compareTo(r2.getStevilka()) : r2.getStevilka().compareTo(r1.getStevilka())) > 0;
@@ -143,7 +143,7 @@ public class Banka {
         for (int i = 0; i < steviloRacunov - 1; i++) {
             for (int j = i + 1; j < steviloRacunov; j++) {
                 if (vecji(racuni[j], racuni[i], polje, padajoce)) {
-                    banka.Racun tmp = racuni[i];
+                    Naloge_z_vaj.banka.Racun tmp = racuni[i];
                     racuni[i] = racuni[j];
                     racuni[j] = tmp;
                 }

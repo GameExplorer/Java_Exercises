@@ -13,6 +13,11 @@ public abstract class Racun {
         this.stevilka = stevilka;
     }
 
+    public Racun(String stevilka, double obresti) {
+        this.stevilka = stevilka;
+    }
+
+
     /**
      * Položi znesek znesek na račun.
      *

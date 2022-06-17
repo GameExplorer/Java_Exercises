@@ -1,5 +1,7 @@
 package banka;
 
+import Naloge_z_vaj.banka.Racun;
+
 public class TekociRacun extends Racun {
     private double limit; // omejitev zneska za posamezen dvig
 

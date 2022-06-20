@@ -10,7 +10,6 @@ Prva(4), druga(5), tretja(6), cetrta(6), peta(4), sesta(5). Metodo izpisi() napi
 metoda  public static void main(String[] args) {     izpisi(args[0]); }
  */
 
-
 public class Naloga21 {
     static void izpisi(String niz) {
         String[] besede = niz.split(" ");

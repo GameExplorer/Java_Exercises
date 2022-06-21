@@ -26,7 +26,6 @@ class Planet {
         return povrsina;
     }
 }
-
 public class DN09 {
 
     /**

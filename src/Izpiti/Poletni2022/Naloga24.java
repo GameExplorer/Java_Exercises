@@ -4,7 +4,6 @@ import java.awt.Color;
 
 public class Naloga24 {
 
-
     class Sonce {
 
         int x;

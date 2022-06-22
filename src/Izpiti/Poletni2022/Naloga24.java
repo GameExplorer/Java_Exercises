@@ -17,7 +17,6 @@ public class Naloga24 {
             this.y = y;
             this.n = n;
         }
-
         public void narisi() {
             StdDraw.setPenColor(Color.yellow);
 

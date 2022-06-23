@@ -54,7 +54,6 @@ public class Naloga23 {
             return rez;
         }
     }
-
     public class Naloga23 {
         public static void main(String[] args) {
             Matrika m1 = new Matrika(new int[][]{{1, 2, 3, 4, 5}, {5, 4, 3, 2, 1}, {10, 11, 12, 13, 14}});

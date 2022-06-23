@@ -3,7 +3,6 @@ package Izpiti.Poletni2022;
 import java.util.Arrays;
 
 public class Naloga11 {
-
     public static void premakni(int[] tabela) {
         // poišči najmanjši element v tabeli
         int najmanjsi = tabela[0];
@@ -20,7 +19,6 @@ public class Naloga11 {
             tabela[tabela.length - 1] = tmp;
         }
     }
-
 
     public static void main(String[] args) {
         int[] tabela = new int[args.length];
@@ -41,4 +39,4 @@ metode ne smeš ustvariti in uporabiti nobene nove tabele in ne smeš uporabljat
 Primer:  Ob klicu programa  java Naloga11 3 5 -1 404 11 5 -5 9  naj program izpiše
 Vhodna tabela:   [3, 5, -1, 404, 11, 5, -5, 9]
 Rotirana tabela: [-5, 9, 3, 5, -1, 404, 11, 5]
- */
+*/

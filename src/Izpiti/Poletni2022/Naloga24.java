@@ -3,9 +3,7 @@ package Izpiti.Poletni2022;
 import java.awt.Color;
 
 public class Naloga24 {
-
     class Sonce {
-
         int x;
         int y;
         int r;

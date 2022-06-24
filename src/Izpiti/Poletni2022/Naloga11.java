@@ -30,6 +30,7 @@ public class Naloga11 {
         System.out.printf("Rotirana tabela:  %s\n", Arrays.toString(tabela));
     }
 }
+
 /*
 V tabeli imamo shranjena cela števila. Spodnji program dopolni z metodo premakni(), ki ciklično premakne elemente tabele
 tako, da je na prvem mestu v tabeli najmanjši element, vrstni red elementov pa se pri tem ne spremeni.  Pri implementaciji

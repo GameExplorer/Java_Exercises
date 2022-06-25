@@ -1,7 +1,3 @@
-
-    
-
-
 # Java_Exercises
 
 ![Java Logo](java_logo.png)

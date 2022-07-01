@@ -28,7 +28,6 @@ public class Naloga22 {
             System.out.println("Napaka: problem z datoteko.");
         }
     }
-
     // rešitev z uporabo DataInputStream
     public static void preberi1(String dat) {
         byte[] podpis = {0x50, 0x32};

@@ -10,7 +10,6 @@ Java Vaje
     <li>Naloge z vaj</li>
     <li>Domače naloge</li>
     <li>Ostale vaje</li>
-    
 </ol>
 
 
